@@ -11,7 +11,7 @@ import scala.concurrent.duration._
  */
 
 /**
- * usage: JAVA_OPTS="-Dusers=300" /bin/gatling.sh
+ * usage: JAVA_OPTS="-Dusers=300" bin/gatling.sh
  * (change value of `users=...` to change num of simultaneous users
  */
 
