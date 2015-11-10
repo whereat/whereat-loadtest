@@ -10,8 +10,10 @@ import scala.concurrent.duration._
  * License: GPLv3 (https://www.gnu.org/licenses/gpl-3.0.html)
  */
 
-// usage: JAVA_OPTS="-Dusers=300" /bin/gatling.sh
-// (change value of `users=...` to change num of simultaneous users
+/**
+ * usage: JAVA_OPTS="-Dusers=300" /bin/gatling.sh
+ * (change value of `users=...` to change num of simultaneous users
+ */
 
 class SimultaneousUsers extends Simulation {
 
